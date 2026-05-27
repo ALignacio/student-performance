@@ -18,3 +18,5 @@ Full Stack Run
 Start backend
 Start frontend
 Open the Vite URL in browser
+
+ps: had to create another repo cause there was a lot of error when pushing the final work
