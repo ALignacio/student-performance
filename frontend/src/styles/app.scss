@@ -1,0 +1,52 @@
+:root {
+  color-scheme: light;
+  --app-bg: #f4efe7;
+  --app-bg-alt: #fffaf3;
+  --app-surface: rgba(255, 255, 255, 0.78);
+  --app-surface-strong: rgba(255, 255, 255, 0.92);
+  --app-border: rgba(61, 46, 34, 0.12);
+  --app-text: #241d18;
+  --app-muted: rgba(36, 29, 24, 0.68);
+  --app-accent: #c36b3f;
+  --app-accent-2: #316b66;
+}
+
+html {
+  background:
+    radial-gradient(circle at top left, rgba(195, 107, 63, 0.18), transparent 30%),
+    radial-gradient(circle at top right, rgba(49, 107, 102, 0.14), transparent 28%),
+    linear-gradient(180deg, var(--app-bg-alt) 0%, var(--app-bg) 100%);
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', system-ui, sans-serif;
+  color: var(--app-text);
+  background: transparent;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.app-shell {
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(255, 248, 239, 0.8)),
+    linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.25));
+}
+
+.app-surface {
+  background: var(--app-surface);
+  border: 1px solid var(--app-border);
+  backdrop-filter: blur(18px);
+}
+
+.app-surface-strong {
+  background: var(--app-surface-strong);
+  border: 1px solid var(--app-border);
+  backdrop-filter: blur(18px);
+}
+
+.section-title {
+  letter-spacing: 0.02em;
+}

@@ -1,0 +1,148 @@
+export interface StudentRecord {
+  gender: string
+  raceEthnicity: string
+  parentalEducation: string
+  lunch: string
+  testPreparationCourse: string
+  mathScore: number
+  readingScore: number
+  writingScore: number
+  totalScore: number
+}
+
+export const demoStudents: StudentRecord[] = [
+  {
+    gender: 'female',
+    raceEthnicity: 'group B',
+    parentalEducation: "bachelor's degree",
+    lunch: 'standard',
+    testPreparationCourse: 'none',
+    mathScore: 72,
+    readingScore: 72,
+    writingScore: 74,
+    totalScore: 218,
+  },
+  {
+    gender: 'female',
+    raceEthnicity: 'group C',
+    parentalEducation: 'some college',
+    lunch: 'standard',
+    testPreparationCourse: 'completed',
+    mathScore: 69,
+    readingScore: 90,
+    writingScore: 88,
+    totalScore: 247,
+  },
+  {
+    gender: 'female',
+    raceEthnicity: 'group B',
+    parentalEducation: "master's degree",
+    lunch: 'standard',
+    testPreparationCourse: 'none',
+    mathScore: 90,
+    readingScore: 95,
+    writingScore: 93,
+    totalScore: 278,
+  },
+  {
+    gender: 'male',
+    raceEthnicity: 'group A',
+    parentalEducation: "associate's degree",
+    lunch: 'free/reduced',
+    testPreparationCourse: 'none',
+    mathScore: 47,
+    readingScore: 57,
+    writingScore: 44,
+    totalScore: 148,
+  },
+  {
+    gender: 'male',
+    raceEthnicity: 'group C',
+    parentalEducation: 'some college',
+    lunch: 'standard',
+    testPreparationCourse: 'none',
+    mathScore: 76,
+    readingScore: 78,
+    writingScore: 75,
+    totalScore: 229,
+  },
+  {
+    gender: 'female',
+    raceEthnicity: 'group B',
+    parentalEducation: "associate's degree",
+    lunch: 'standard',
+    testPreparationCourse: 'none',
+    mathScore: 71,
+    readingScore: 83,
+    writingScore: 78,
+    totalScore: 232,
+  },
+  {
+    gender: 'female',
+    raceEthnicity: 'group B',
+    parentalEducation: 'some college',
+    lunch: 'standard',
+    testPreparationCourse: 'completed',
+    mathScore: 88,
+    readingScore: 95,
+    writingScore: 92,
+    totalScore: 275,
+  },
+  {
+    gender: 'male',
+    raceEthnicity: 'group B',
+    parentalEducation: 'some college',
+    lunch: 'free/reduced',
+    testPreparationCourse: 'none',
+    mathScore: 40,
+    readingScore: 43,
+    writingScore: 39,
+    totalScore: 122,
+  },
+  {
+    gender: 'male',
+    raceEthnicity: 'group D',
+    parentalEducation: 'high school',
+    lunch: 'free/reduced',
+    testPreparationCourse: 'completed',
+    mathScore: 64,
+    readingScore: 64,
+    writingScore: 67,
+    totalScore: 195,
+  },
+  {
+    gender: 'female',
+    raceEthnicity: 'group B',
+    parentalEducation: 'high school',
+    lunch: 'free/reduced',
+    testPreparationCourse: 'none',
+    mathScore: 38,
+    readingScore: 60,
+    writingScore: 50,
+    totalScore: 148,
+  },
+  {
+    gender: 'male',
+    raceEthnicity: 'group C',
+    parentalEducation: "associate's degree",
+    lunch: 'standard',
+    testPreparationCourse: 'none',
+    mathScore: 58,
+    readingScore: 54,
+    writingScore: 52,
+    totalScore: 164,
+  },
+  {
+    gender: 'female',
+    raceEthnicity: 'group D',
+    parentalEducation: 'some college',
+    lunch: 'standard',
+    testPreparationCourse: 'completed',
+    mathScore: 92,
+    readingScore: 100,
+    writingScore: 100,
+    totalScore: 292,
+  },
+]
+
+export const demoDatasetName = 'Student Performance Demo Dataset'

@@ -1,6 +1,11 @@
 .venv/
 backend/venv/
+backend/venv_old/
+frontend/node_modules/
+frontend/dist/
+.vscode/
+backend/.vscode/
+frontend/.ruler/
 __pycache__/
 *.pyc
 .env
-node_modules/
